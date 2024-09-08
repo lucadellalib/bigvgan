@@ -25,6 +25,9 @@ import torchaudio
 from torch import nn
 
 
+__all__ = ["BigVGAN"]
+
+
 class BigVGAN(nn.Module):
     """BigVGAN (see https://arxiv.org/abs/2206.04658).
 
